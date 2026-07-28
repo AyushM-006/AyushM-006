@@ -3,7 +3,7 @@
 </a>
 
 
-# 💫 About Me
+# 💫 <h1 id="about">About Me</h1>
 
 👋 Hi, I'm **Ayush...**.
 
