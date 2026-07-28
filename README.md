@@ -43,7 +43,7 @@ Currently, I'm focusing on **Java, Spring Boot, Data Structures & Algorithms, SQ
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AyushM-006&theme=codeSTACKr&hide_border=true&include_all_commits=false&count_private=true&layout=compact&title_color=ff6f00&v=20260728" alt="" width="49%" />
    <img src="https://streak-stats.demolab.com/?user=AyushM-006&theme=codeStackr&hide_border=false" width="49%" alt="GitHub Streak" /><br><br><br>
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=AyushM-006&theme=codeStackr&hide_border=false&include_all_commits=false&count_private=false&layout=compact" width="49%" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=AyushM-006&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" width="49%" alt="GitHub Streak" />
   
 </div>
 
@@ -58,13 +58,6 @@ Currently, I'm focusing on **Java, Spring Boot, Data Structures & Algorithms, SQ
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F90001,100:0D1117&height=180&section=footer&text=Thanks%20for%20visiting!&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=70&desc=Let's%20build%20something%20great%20together&descAlignY=92&descSize=14&descColor=F0F0F0&reversal=true" width="100%" alt="Thanks for visiting" />
 </a>
 
-
-<div align="center">
-  <a href="https://github.com/AbdullahBakir97">
-    <img src="https://github-readme-stats.vercel.app/api?username=AbdullahBakir97&theme=codeSTACKr&show_icons=true&rank_icon=github&title_color=c6c6c2&icon_color=ffde01&text_color=da644d&ring_color=830203&hide_border=true&v=20260728" width="49%" alt="GitHub Stats" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=AbdullahBakir97&theme=codeSTACKr&hide_border=true&stroke=ffD700&color=d60606&v=20260728" width="49%" alt="GitHub Streak" />
-  </a>
-</div>
 
 ![](https://github-readme-stats.shion.dev/api?username=AyushM-006&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://streak-stats.demolab.com/?user=AyushM-006&theme=codeStackr&hide_border=false)<br/>
