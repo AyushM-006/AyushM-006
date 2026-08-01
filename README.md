@@ -8,6 +8,7 @@
 
 <h1 id="about">💫 About Me</h1>
 
+
 👋 Hi, I'm **Ayush...**.
 
 I'm a **Computer Engineering student** passionate about building software that solves real-world problems. I have a strong interest in **Software Engineering, Backend Development, Data Science, and Full-Stack Web Development**.
