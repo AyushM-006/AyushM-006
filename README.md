@@ -61,6 +61,7 @@ Currently, I'm focusing on **Java, Spring Boot, Data Structures & Algorithms, SQ
 </div>
 
 <a href="#about">
+  
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F90001,100:0D1117&height=180&section=footer&text=Thanks%20for%20visiting!&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=70&desc=Let's%20build%20something%20great%20together&descAlignY=92&descSize=14&descColor=F0F0F0&reversal=true" width="100%" alt="Thanks for visiting" />
 </a>
 
