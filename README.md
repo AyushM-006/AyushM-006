@@ -35,6 +35,7 @@ Currently, I'm focusing on **Java, Spring Boot, Data Structures & Algorithms, SQ
 > **"Code. Learn. Improve. Repeat."** 🚀
 
 <br>
+
 <div align="center">
   <img src="redline.gif" width="100%" alt=""/>
 </div>
