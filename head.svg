@@ -1,0 +1,402 @@
+<svg viewBox="0 0 115 25" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <style>
+    svg {
+      width: 100vw;
+      position: fixed;
+      top: -5px;
+      transform: rotate(180deg);
+      overflow: visible;
+      background: transparent;
+    }
+
+    svg text,
+    svg image {
+      transform-origin: 50% 50%;
+      transform: translate(0%, -40%) rotate(180deg);
+    }
+
+    rect.headerRect {
+      fill: black;
+      fill-opacity: 20%;
+    }
+
+    rect.headerRect:hover {
+      fill: #B30000;
+      fill-opacity: 0.92;
+    }
+
+    .wave {
+      animation: wave 3s linear infinite;
+      fill: #B30000;
+    }
+
+    .wave:hover {
+      fill: #E00000;
+    }
+
+    .drop {
+      fill: #B30000;
+      stroke: #B30000;
+      stroke-width: 0.5;
+      animation: drop 8.2s linear infinite;
+      transform: translateY(25px);
+      transform-box: fill-box;
+      transform-origin: 50% 100%;
+    }
+
+    .drop2 {
+      animation-delay: 3s;
+      animation-duration: 5s;
+    }
+
+    .drop3 {
+      animation-delay: -2s;
+      animation-duration: 5.4s;
+    }
+
+    .drop4 {
+      animation-delay: 1.7s;
+      animation-duration: 2.4s;
+    }
+
+    .drop5 {
+      animation-delay: 2.7s;
+      animation-duration: 5.1s;
+    }
+
+    .drop6 {
+      animation-delay: -2.1s;
+      animation-duration: 5.2s;
+    }
+
+    .gooeff {
+      filter: url(#goo);
+    }
+
+    #wave2 {
+      animation-duration: 5s;
+      animation-direction: reverse;
+      opacity: .6;
+    }
+
+    #wave3 {
+      animation-duration: 7s;
+      opacity: .3;
+    }
+
+    @keyframes drop {
+      0% {
+        transform: translateY(25px);
+      }
+
+      30% {
+        transform: translateY(-10px) scale(.1);
+      }
+
+      30.001% {
+        transform: translateY(25px) scale(1);
+      }
+
+      70% {
+        transform: translateY(25px);
+      }
+
+      100% {
+        transform: translateY(-15px) scale(.1);
+      }
+    }
+
+    @keyframes wave {
+      to {
+        transform: translateX(-100%);
+      }
+    }
+
+    @keyframes blink {
+      0% {
+        fill: #FFFFFF;
+      }
+
+      100% {
+        fill: none;
+      }
+    }
+
+    @keyframes underline_move {
+      to {
+        transform: translateX(-39px);
+      }
+    }
+
+    g.typingUnderline rect {
+      animation:
+        blink 0.5s infinite,
+        underline_move 3.3s steps(24, end) forwards;
+    }
+
+    /* Hello World animation */
+    @keyframes helloDrop {
+      0% {
+        opacity: 0;
+        transform: translateY(-5px);
+      }
+
+      55% {
+        opacity: 1;
+        transform: translateY(1.5px);
+      }
+
+      75% {
+        transform: translateY(-0.7px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Hello World animation */
+@keyframes helloDrop {
+  0% {
+    opacity: 0;
+    transform: translateY(-5px) scale(0.92);
+  }
+
+  55% {
+    opacity: 1;
+    transform: translateY(1.5px) scale(1.04);
+  }
+
+  75% {
+    transform: translateY(-0.7px) scale(0.98);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes helloPulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.045);
+  }
+}
+
+.helloWorld {
+  transform-origin: 2px 12px;
+  animation:
+    helloDrop 1.8s cubic-bezier(.22,.61,.36,1) 0.3s both,
+    helloPulse 2.8s ease-in-out 2.1s infinite;
+}
+  </style>
+
+  <defs>
+
+    <!-- Gooey effect for the drops -->
+    <filter id="goo">
+      <feGaussianBlur
+        in="SourceGraphic"
+        stdDeviation="1"
+        result="blur"
+      />
+
+      <feColorMatrix
+        in="blur"
+        mode="matrix"
+        values="
+          1 0 0 0 0
+          0 1 0 0 0
+          0 0 1 0 0
+          0 0 0 13 -9"
+        result="goo"
+      />
+
+      <feBlend
+        in="SourceGraphic"
+        in2="goo"
+      />
+    </filter>
+
+    <!-- Wave shape -->
+    <path
+      id="wave"
+      d="M 0,10
+         C 30,10 30,15 60,15
+         90,15 90,10 120,10
+         150,10 150,15 180,15
+         210,15 210,10 240,10
+         v 28
+         h -240
+         z"
+    />
+
+  </defs>
+
+  <!-- Background waves -->
+  <use
+    id="wave3"
+    class="wave"
+    xlink:href="#wave"
+    x="0"
+    y="-2"
+  />
+
+  <use
+    id="wave2"
+    class="wave"
+    xlink:href="#wave"
+    x="0"
+    y="0"
+  />
+
+  <!-- Animated drops and main wave -->
+  <g class="gooeff">
+
+    <circle
+      class="drop"
+      cx="95"
+      cy="2"
+      r="8.8"
+    />
+
+    <circle
+      class="drop drop2"
+      cx="35"
+      cy="2.5"
+      r="7.5"
+    />
+
+    <circle
+      class="drop drop3"
+      cx="26"
+      cy="2.8"
+      r="9.2"
+    />
+
+    <circle
+      class="drop drop4"
+      cx="14"
+      cy="2"
+      r="8.8"
+    />
+
+    <circle
+      class="drop drop5"
+      cx="22"
+      cy="2.5"
+      r="7.5"
+    />
+
+    <circle
+      class="drop drop6"
+      cx="6"
+      cy="2.8"
+      r="9.2"
+    />
+
+    <use
+      id="wave1"
+      class="wave"
+      xlink:href="#wave"
+      x="0"
+      y="1"
+    />
+
+  </g>
+
+  <!-- Dark background ONLY behind the name -->
+  <rect
+    class="headerRect"
+    width="74"
+    height="7.8"
+    rx="1.2"
+    x="19"
+    y="15"
+  />
+
+  <!-- Name typing animation -->
+  <path id="nameTyping">
+    <animate
+      attributeName="d"
+      from="m36,-4 h0"
+      to="m36,-4 h110"
+      dur="7.5s"
+      begin="0s"
+      fill="freeze"
+    />
+  </path>
+
+  <text
+    font-family="Courier New"
+    font-size=".22em"
+    fill="#FFFFFF"
+    font-weight="bold"
+    letter-spacing="2"
+  >
+    <textPath xlink:href="#nameTyping">
+      AYUSH MANDAL
+    </textPath>
+  </text>
+
+  <!-- Typing cursor -->
+  <g class="typingUnderline">
+    <rect
+      fill="#FFFFFF"
+      x="68"
+      y="18.5"
+      width="1.5"
+      height="0.4"
+    />
+  </g>
+
+  <!-- Description typing animation -->
+  <path id="descriptionTyping">
+    <animate
+      attributeName="d"
+      from="m22,-1 h0"
+      to="m22,-1 h126"
+      dur="5.5s"
+      begin="0s"
+      fill="freeze"
+    />
+  </path>
+
+  <text
+    x="60"
+    font-family="Helvetica"
+    font-size=".10em"
+    fill="#EDEDED"
+    text-anchor="end"
+    alignment-baseline="hanging"
+    font-style="italic"
+  >
+    <textPath xlink:href="#descriptionTyping">
+      Full-Stack Developer • Java • Python • Flask • MySQL
+    </textPath>
+  </text>
+
+<!-- Animated Hello World -->
+<g class="helloWorld">
+
+  <text
+    x="45"
+    y="12"
+    font-family="Helvetica"
+    font-size=".22em"
+    fill="#E6E6E6"
+    font-weight="bold"
+  >
+    Hello, World! 👋
+  </text>
+
+</g>
+
+</svg>
