@@ -267,15 +267,15 @@
     height="7.8"
     rx="1.2"
     x="19"
-    y="16.5"
+    y="15"
   />
 
   <!-- Name typing animation -->
   <path id="nameTyping">
     <animate
       attributeName="d"
-      from="m36,-6 h0"
-      to="m36,-6 h110"
+      from="m36,-4 h0"
+      to="m36,-4 h110"
       dur="7.5s"
       begin="0s"
       fill="freeze"
@@ -283,7 +283,7 @@
   </path>
 
   <text
-    font-family="Montserrat"
+    font-family="Courier New"
     font-size=".22em"
     fill="#FFFFFF"
     font-weight="bold"
@@ -299,7 +299,7 @@
     <rect
       fill="#FFFFFF"
       x="69"
-      y="20.5"
+      y="18.5"
       width="2.1"
       height="0.4"
     />
@@ -309,8 +309,8 @@
   <path id="descriptionTyping">
     <animate
       attributeName="d"
-      from="m22,-3 h0"
-      to="m22,-3 h126"
+      from="m22,-1 h0"
+      to="m22,-1 h126"
       dur="5.5s"
       begin="0s"
       fill="freeze"
