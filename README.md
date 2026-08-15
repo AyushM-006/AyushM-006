@@ -1,7 +1,7 @@
 <a href="https://github.com/AyushM-006">
   <!-- <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:F90001&height=260&section=header&text=Ayush%20Mandal&fontSize=90&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full-Stack%20Developer%20%E2%9A%A1%20Java%20%E2%80%A2%20Python%20%E2%80%A2%20Flask%20%E2%80%A2%20MySQL&descAlignY=58&descSize=20&descColor=F0F0F0" width="100%" alt="Ayush Mandal — Full-Stack Developer" /> -->
 
-  <img src="header.svg" width="100%" alt="Ayush Mandal" />
+  <img src="head.svg" width="100%" alt="Ayush Mandal" />
 </a>
 
 <div align="center">
