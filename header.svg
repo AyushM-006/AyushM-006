@@ -132,7 +132,7 @@
     g.typingUnderline rect {
       animation:
         blink 0.5s infinite,
-        underline_move 4s steps(24, end) forwards;
+        underline_move 3.3s steps(24, end) forwards;
     }
   </style>
 
@@ -276,7 +276,7 @@
       attributeName="d"
       from="m36,-6 h0"
       to="m36,-6 h110"
-      dur="6s"
+      dur="7.5s"
       begin="0s"
       fill="freeze"
     />
@@ -300,7 +300,7 @@
       fill="#FFFFFF"
       x="69"
       y="20.5"
-      width="2.5"
+      width="2.1"
       height="0.4"
     />
   </g>
