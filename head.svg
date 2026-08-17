@@ -136,28 +136,6 @@
     }
 
     /* Hello World animation */
-    @keyframes helloDrop {
-      0% {
-        opacity: 0;
-        transform: translateY(-5px);
-      }
-
-      55% {
-        opacity: 1;
-        transform: translateY(1.5px);
-      }
-
-      75% {
-        transform: translateY(-0.7px);
-      }
-
-      100% {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    /* Hello World animation */
 @keyframes helloDrop {
   0% {
     opacity: 0;
@@ -196,7 +174,7 @@
     helloDrop 1.8s cubic-bezier(.22,.61,.36,1) 0.3s both,
     helloPulse 2.8s ease-in-out 2.1s infinite;
 }
-  </style>
+</style>
 
   <defs>
 
