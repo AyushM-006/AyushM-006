@@ -27,7 +27,7 @@
     }
 
     .wave {
-      animation: wave 3s linear infinite;
+      animation: wave 6s linear infinite;
       fill: #B30000;
     }
 
@@ -39,7 +39,7 @@
       fill: #B30000;
       stroke: #B30000;
       stroke-width: 0.5;
-      animation: drop 8.2s linear infinite;
+      animation: drop 10.2s linear infinite;
       transform: translateY(25px);
       transform-box: fill-box;
       transform-origin: 50% 100%;
@@ -75,13 +75,13 @@
     }
 
     #wave2 {
-      animation-duration: 5s;
+      animation-duration: 9s;
       animation-direction: reverse;
       opacity: .6;
     }
 
     #wave3 {
-      animation-duration: 7s;
+      animation-duration: 11s;
       opacity: .3;
     }
 
@@ -131,7 +131,7 @@
 
     g.typingUnderline rect {
       animation:
-        blink 0.5s infinite,
+        blink 1s infinite,
         underline_move 3.3s steps(24, end) forwards;
     }
 
@@ -171,8 +171,8 @@
 .helloWorld {
   transform-origin: 2px 12px;
   animation:
-    helloDrop 3.0s cubic-bezier(.22,.61,.36,1) 0.3s both,
-    helloPulse 2.8s ease-in-out 2.1s infinite;
+    helloDrop 5s cubic-bezier(.22,.61,.36,1) 0.3s both,
+    helloPulse 6s ease-in-out 2.1s infinite;
 }
 </style>
 
