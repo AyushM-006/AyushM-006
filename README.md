@@ -3,7 +3,7 @@
 
   <img src="head.svg" width="100%" alt="Ayush Mandal" />
 </a>
-<div align="center"><img src="https://komarev.com/ghpvc/?username=AyushM-006&style=for-the-badge&label=PROFILE+VIEWS">< </div>
+<div align="center"><img src="https://komarev.com/ghpvc/?username=AyushM-006&style=for-the-badge&label=PROFILE+VIEWS"></div>
 <div align="center">
   <img src="redline.gif" width="100%" alt=""/>
 </div>
