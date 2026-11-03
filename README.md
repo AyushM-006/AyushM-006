@@ -3,7 +3,9 @@
 
   <img src="head.svg" width="100%" alt="Ayush Mandal" />
 </a>
-
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=AyushM-006&style=for-the-badge&label=PROFILE+VIEWS">
+</div>
 <div align="center">
   <img src="redline.gif" width="100%" alt=""/>
 </div>
@@ -44,7 +46,8 @@ Currently, I'm focusing on **Java, Spring Boot, Data Structures & Algorithms, SQ
 # 📊 GitHub Stats:
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=AyushM-006&theme=codeStackr&hide_border=false" width="49%" alt="GitHub Streak" /><br><br><br>
+  <!-- <img src="https://streak-stats.demolab.com/?user=AyushM-006&theme=codeStackr&hide_border=false" width="49%" alt="GitHub Streak" />-->
+  <img src="https://streak-stats.demolab.com/?user=AyushM-006&theme=codeStackr&hide_border=false&timezone=Asia%2FKolkata"  width="49%" alt="GitHub Streak" /><br><br><br>
   <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=AyushM-006&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact&langs_count=10" width="49%" alt="GitHub Streak" />
 </div>
 
